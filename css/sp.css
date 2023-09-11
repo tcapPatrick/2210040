@@ -1,0 +1,355 @@
+@media print, screen and (max-width: 767px) { 
+    .pc_only {
+        display: none;
+    }
+
+    .sp_only {
+        display: block;
+    }
+
+}
+
+.content_wrap {
+    padding: 0 20px;
+}
+
+/* HEADER AREA */
+.headerArea {
+    padding: 20px 0 10px 10px;
+}
+
+.logo {
+    width: 4.5%;
+    margin-right: 5px;
+}
+
+h1 a {
+    vertical-align: text-bottom;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+/* BANNER AREA */
+.bannerTextImg {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.bannerText {
+    color: #FFFFFF;
+    line-height: 1;
+    font-size: 3rem;
+}
+
+.bannerText_sub {
+    display: block;
+    font-size: 2.375rem;
+}
+
+.bannerTextImg img {
+    margin-top: 10px;
+}
+
+/* SECTION 01 */
+.sec01 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.sec01Ttl {
+    font-size: 2.875rem;
+    font-weight: 400;
+}
+
+.sec01_btnGroup {
+    margin-top: 40px;
+}
+
+.sec01_btn {
+    margin: 0 auto;
+    max-width: 426px;
+}
+
+.sec01_btn a {
+    display: block;
+    padding: 15px 0;
+    background-color: #0b84f6;
+    font-size: 2rem;
+    border-radius: 25px;
+}
+
+.sec01_btn a::after {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 20px;
+    background: url('../images/ico_window_001.png') no-repeat;
+    vertical-align: middle;
+    content: "";
+}
+
+.sec01_btn:last-child {
+    margin-top: 25px;
+}
+
+.priceCards {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.priceCard {
+    width: calc((100% - 30px)/2);
+    padding: 20px 10px 25px;
+    border: 1px solid #bebebe;
+    background-color: #FFFFFF;
+    border-radius: 10px;;
+}
+
+.priceCard:first-child {
+    width: 100%;
+}
+
+.priceCard:not(:first-child) {
+    margin-top: 30px;
+}
+
+.priceNew {
+    color: #ec5e11;
+    font-size: 2.25rem;
+    text-transform: uppercase;
+}
+
+.priceName {
+    line-height: .85;
+    font-size: 3.75rem;
+    font-weight: 600;
+}
+
+.pricePrice {
+    margin-top: 10px;
+    font-size: 1.625rem;
+}
+
+.priceCard:first-child .priceName {
+    font-size: 6.375rem;
+}
+
+.priceCard:first-child .pricePrice {
+    font-size: 2.5rem;
+}
+
+/* SECTION 02 */
+.sec02 {
+    margin-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.sec02Ttl {
+    font-size: 3.75rem;
+    font-weight: 400;
+}
+
+.modelCards {
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+.modelCard {
+    padding: 20px 30px 30px;
+    border: 1px solid #bebebe;
+    background-color: #FFFFFF;
+    border-radius: 15px;;
+}
+
+.modelCard:not(:first-child) {
+    margin-top: 30px;
+}
+
+.modelNew {
+    color: #ec5e11;
+    font-size: 1.25rem;
+}
+
+.modelName {
+    margin-top: 20px;
+    line-height: 1;
+    font-size: 2.313rem;
+    font-weight: 600;
+}
+
+.modelName_sub {
+    display: block;
+    font-size: 1.438rem;
+}
+
+.modelDesc {
+    margin: 20px auto 0;
+    max-width: 250px;
+}
+
+.modelPrice {
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+.modelImg {
+    margin: 0 auto;
+    max-width: 165px;
+}
+
+.modelCard img {
+    width: 100%;
+    margin: 40px auto 0;
+}
+
+/* SECTION 03 */
+.sec03 {
+    padding: 65px 0 70px; 
+}
+
+.infoCards {
+    padding: 0 20px;
+}
+
+.infoCard {
+    display: flex;
+    padding: 30px 25px 40px;
+    border: 1px solid #bebebe;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.infoCard:not(:first-child) {
+    margin-top: 20px;
+}
+
+.infoCard h3 {
+    font-size: 2.25rem;
+}
+
+.environment {
+    color: #5338d1;
+}
+
+.environment::before {
+    display: inline-block;
+    width: 25px;
+    height: 30px;
+    margin-right: 20px;
+    background: url('../images/ico_001_pc.png') no-repeat;
+    vertical-align: baseline;
+    content: "";
+}
+
+.privacy {
+    color: #9d3acc;
+}
+
+.privacy::before {
+    display: inline-block;
+    width: 25px;
+    height: 33px;
+    margin-right: 20px;
+    background: url('../images/ico_002_pc.png') no-repeat;
+    vertical-align: baseline;
+    content: "";
+}
+
+.accessibility {
+    color: #df50ac;
+}
+
+.accessibility:before {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+    background: url('../images/ico_003_pc.png') no-repeat;
+    vertical-align: baseline;
+    content: "";
+}
+
+.accessories {
+    color: #ec597f;
+}
+
+.accessories::before {
+    display: inline-block;
+    width: 23px;
+    height: 34px;
+    margin-right: 20px;
+    background: url('../images/ico_004_pc.png') no-repeat;
+    vertical-align: baseline;
+    content: "";
+}
+
+.infoText p {
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+.info_btn {
+    margin-top: 70px;
+}
+
+.info_btn a {
+    display: block;
+    padding: 10px;
+    background-color: #0b84f6;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 3px #a6a6a6;
+}
+
+/* FOOTER AREA */
+.footerArea {
+    padding-top: 100px;
+    background-color: #FFFFFF;
+}
+
+.footerContent {
+    padding: 15px 0;
+    background-color: #000000;
+}
+
+.footerNav {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.footerNav li a {
+    display: block;
+    margin-right: 5px;
+    color: #FFFFFF;
+    font-size: .8rem;
+}
+
+.footerNav li a:after {
+    margin-left: 5px;
+    content: '|';
+    font-size: .8rem;
+}
+
+.footerNav li:last-child a::after {
+    content: none;
+}
+
+.footerCopy {
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-size: .8rem;
+}
+
+#back_to_top {
+    position: fixed;
+    right: 15px;
+    bottom: 110px;
+}
+
